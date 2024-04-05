@@ -16,5 +16,6 @@ for filename in os.listdir(src_labels_path):
         original_file_path = os.path.join(src_labels_path, filename)
 
         shutil.copy(original_file_path, copy_file_path)
+    
 
 print("Appending annotations complete.")

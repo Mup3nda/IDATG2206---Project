@@ -5,7 +5,7 @@ import torch
 
 
 VIDEOS_DIR = os.path.join('videos')
-video_path = os.path.join(VIDEOS_DIR, '20230617171213_20230617171220_3.mp4')
+video_path = os.path.join(VIDEOS_DIR, 'D01_20220703192955.mp4')
 
 cap = cv2.VideoCapture(video_path)
 ret, frame = cap.read()
